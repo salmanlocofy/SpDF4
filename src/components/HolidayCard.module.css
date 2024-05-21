@@ -1,0 +1,107 @@
+.imageIcon {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.imageIcon,
+.imageIcon:hover {
+  background-color: var(--color-silver);
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: 242px;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+}
+.city {
+  position: relative;
+  font-weight: 500;
+}
+.city,
+.city:hover,
+.id,
+.id:hover {
+  letter-spacing: 0.02em;
+  display: flex;
+  align-self: stretch;
+  width: auto;
+}
+.city:hover {
+  font-weight: 500;
+  font-family: var(--components-button-large);
+  font-size: var(--font-size-xl);
+  text-align: left;
+  color: var(--color-darkslategray-200);
+}
+.id,
+.id:hover {
+  font-size: var(--components-input-text-size);
+  color: var(--color-darkgray);
+}
+.id {
+  position: relative;
+}
+.id:hover {
+  font-family: var(--components-button-large);
+  text-align: left;
+}
+.container,
+.container:hover {
+  display: flex;
+  flex: 1;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-10xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 120;
+}
+.price {
+  position: relative;
+}
+.price,
+.price:hover {
+  font-family: var(--font-baloo-bhai);
+  font-size: var(--font-size-13xl);
+  line-height: 34px;
+  text-align: right;
+  color: var(--color-cornflowerblue-100);
+  display: flex;
+  min-width: 72;
+  white-space: nowrap;
+}
+.holidayDetails,
+.holidayDetails:hover {
+  background-color: var(--primary-contrast);
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-xs);
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+  padding: var(--padding-lg) var(--padding-lgi);
+  box-sizing: border-box;
+  border: 1px solid var(--color-whitesmoke);
+}
+.holidaycard {
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--components-button-large);
+}
+.holidaycard,
+.holidaycard:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0);
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 280;
+}

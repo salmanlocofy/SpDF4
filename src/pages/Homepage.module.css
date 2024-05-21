@@ -1,0 +1,71 @@
+.homeContents {
+  flex: 1;
+}
+.homeContents,
+.homeContents:hover {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-61xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 1320;
+}
+.homeContentsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-41xl) var(--padding-41xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  width: auto;
+  transform: rotate(0deg);
+}
+.homeContentsWrapper,
+.homeContentsWrapper:hover,
+.subscribesectionParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: auto;
+  gap: var(--gap-0);
+}
+.homeContentsWrapper:hover {
+  flex-direction: row;
+  padding: 0 var(--padding-41xl) var(--padding-41xl);
+  box-sizing: border-box;
+}
+.subscribesectionParent {
+  flex-direction: column;
+}
+.homeContentsWrapper:hover,
+.subscribesectionParent,
+.subscribesectionParent:hover {
+  align-self: stretch;
+  width: auto;
+  transform: rotate(0deg);
+  max-width: 100%;
+}
+.homepage {
+  position: relative;
+  overflow: hidden;
+}
+.homepage,
+.homepage:hover,
+.subscribesectionParent:hover {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.homepage,
+.homepage:hover {
+  background-color: var(--primary-contrast);
+  width: 1440px;
+  line-height: normal;
+  letter-spacing: normal;
+}

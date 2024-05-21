@@ -1,0 +1,160 @@
+.recommendedHolidays,
+.recommendedHolidays:hover {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  display: flex;
+  flex: 1;
+  min-width: 278;
+  max-width: 100%;
+}
+.recommendedHolidays {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-family: inherit;
+}
+.recommendedHolidays:hover {
+  font-family: var(--components-button-large);
+  font-size: var(--font-size-11xl);
+  text-align: left;
+  color: var(--color-darkslategray-300);
+}
+.viewAllHolidays,
+.viewAllHolidays:hover {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  display: flex;
+  flex: 1;
+}
+.viewAllHolidays {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+}
+.viewAllHolidays:hover {
+  font-family: var(--components-button-large);
+  font-size: var(--font-size-lg);
+  text-align: right;
+  color: var(--color-cornflowerblue-200);
+}
+.arrowrighticon {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.arrowrighticon,
+.arrowrighticon:hover {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  min-height: 24;
+}
+.viewAllHolidaysParent {
+  width: 199.9px;
+  border-radius: var(--br-12xl);
+  background-color: var(--primary-contrast);
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+  text-align: right;
+  font-size: var(--font-size-lg);
+  color: var(--color-cornflowerblue-200);
+}
+.recTitle,
+.viewAllHolidaysParent,
+.viewAllHolidaysParent:hover {
+  flex-direction: row;
+  justify-content: flex-start;
+  height: auto;
+}
+.viewAllHolidaysParent:hover {
+  background-color: var(--primary-contrast);
+  display: flex;
+  width: 199.9px;
+  gap: var(--gap-3xs);
+  align-items: flex-start;
+  border-radius: var(--br-12xl);
+  white-space: nowrap;
+}
+.recTitle {
+  align-self: stretch;
+  width: auto;
+}
+.recTitle,
+.recTitle:hover {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap-0);
+  align-items: center;
+  max-width: 100%;
+  row-gap: 20px;
+}
+.recCardsContainer {
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-200);
+}
+.recCardsContainer,
+.recCardsContainer:hover,
+.recTitle:hover {
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.recCardsContainer,
+.recCardsContainer:hover {
+  display: grid;
+  gap: var(--gap-base);
+  align-items: flex-start;
+  grid-template-columns: repeat(4, minmax(231px, 1fr));
+}
+.viewAllHolidays1,
+.viewAllHolidays1:hover {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  display: flex;
+  flex: 1;
+}
+.viewAllHolidays1 {
+  position: relative;
+}
+.viewAllHolidays1:hover {
+  font-family: var(--components-button-large);
+  font-size: var(--font-size-lg);
+  text-align: right;
+  color: var(--color-cornflowerblue-200);
+}
+.arrowRightIcon {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.arrowRightIcon,
+.arrowRightIcon:hover {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  min-height: 24;
+}
+.recommendedHolidaysContainer {
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--components-button-large);
+}
+.recommendedHolidaysContainer,
+.recommendedHolidaysContainer:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}

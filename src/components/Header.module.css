@@ -1,0 +1,194 @@
+.logoblueIcon {
+  position: relative;
+  object-fit: contain;
+}
+.logoblueIcon,
+.logoblueIcon:hover {
+  display: flex;
+  width: 174px;
+  height: 33px;
+}
+.text,
+.text:hover {
+  display: flex;
+  min-width: 47;
+}
+.text {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+}
+.text:hover {
+  font-family: var(--components-button-large);
+  font-size: var(--font-size-sm);
+  text-align: center;
+}
+.navigationlink,
+.text:hover {
+  color: var(--color-cornflowerblue-100);
+}
+.navigationlink,
+.navigationlink:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  align-items: center;
+  justify-content: center;
+}
+.text1,
+.text1:hover {
+  display: flex;
+  min-width: 43;
+}
+.text1 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+}
+.text1:hover {
+  font-family: var(--components-button-large);
+  font-size: var(--font-size-sm);
+  text-align: center;
+  color: var(--color-darkslategray-200);
+}
+.navigationlink1,
+.navigationlink1:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  align-items: center;
+  justify-content: center;
+}
+.text2,
+.text3 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: flex;
+  min-width: 41;
+}
+.text2:hover {
+  min-width: 41;
+}
+.text3 {
+  min-width: 39;
+}
+.navigationMenu,
+.text2:hover,
+.text3:hover {
+  display: flex;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-200);
+  font-family: var(--components-button-large);
+}
+.text3:hover {
+  min-width: 39;
+}
+.navigationMenu {
+  margin: 0;
+  flex-direction: row;
+  align-items: center;
+}
+.navigationMenu,
+.navigationMenu:hover {
+  flex: 1;
+  height: auto;
+  gap: var(--gap-xl);
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.icon {
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.icon,
+.icon:hover,
+.navigationMenu:hover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon,
+.icon:hover {
+  width: 24px;
+  height: 24px;
+  gap: var(--gap-3xs);
+  justify-content: center;
+}
+.avatarIcon {
+  object-fit: cover;
+}
+.avatarIcon,
+.avatarIcon:hover {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: var(--br-19xl);
+  padding: var(--padding-xs) var(--padding-base);
+  box-sizing: border-box;
+  border: 0 solid var(--color-aliceblue);
+}
+.accountSection,
+.accountSection:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-xs);
+  align-items: center;
+  justify-content: center;
+}
+.navigationRight,
+.navigationRight:hover {
+  display: flex;
+  width: 370px;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-17xl);
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 370;
+}
+.headerContainer,
+.headerContainer:hover {
+  display: flex;
+  flex: 1;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.header,
+.header:hover {
+  background-color: var(--primary-contrast);
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xl) var(--padding-xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+}

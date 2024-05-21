@@ -1,0 +1,271 @@
+.logowhiteIcon {
+  position: relative;
+  object-fit: contain;
+}
+.logowhiteIcon,
+.logowhiteIcon:hover {
+  display: flex;
+  width: 180px;
+  height: 35px;
+}
+.fickleFlightIs,
+.fickleFlightIs:hover {
+  line-height: 27px;
+  display: flex;
+  align-self: stretch;
+  width: auto;
+}
+.fickleFlightIs {
+  margin: 0;
+  position: relative;
+}
+.fickleFlightIs:hover {
+  font-family: var(--components-button-large);
+  font-size: var(--font-size-lg);
+  text-align: left;
+  color: var(--primary-contrast);
+}
+.facebookIcon {
+  position: relative;
+  object-fit: contain;
+}
+.facebookIcon,
+.facebookIcon:hover {
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+.socialMediaLink {
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  gap: var(--gap-3xs);
+}
+.socialMediaLink,
+.socialMediaLink:hover,
+.socialMediaLinksContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: auto;
+}
+.socialMediaLink:hover {
+  width: auto;
+  align-self: unset;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.socialMediaLinksContainer {
+  overflow: hidden;
+}
+.socialMediaLinksContainer,
+.socialMediaLinksContainer:hover {
+  width: auto;
+  align-self: unset;
+  flex-direction: row;
+  gap: var(--gap-0);
+}
+.fickleflightBio {
+  font-size: var(--font-size-lg);
+}
+.fickleflightBio,
+.fickleflightBio:hover,
+.socialMediaLinksContainer:hover {
+  display: flex;
+  height: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fickleflightBio,
+.fickleflightBio:hover {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-sm);
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  min-width: 280;
+  max-width: 100%;
+}
+.aboutUs,
+.company,
+.news {
+  position: relative;
+  display: flex;
+}
+.company {
+  width: 174.7px;
+  line-height: 27px;
+  font-weight: 500;
+}
+.aboutUs:hover,
+.company:hover,
+.news:hover {
+  font-family: var(--components-button-large);
+  text-align: left;
+  color: var(--primary-contrast);
+}
+.company:hover {
+  font-weight: 500;
+  font-size: var(--font-size-xl);
+  line-height: 27px;
+  display: flex;
+  width: 174.7px;
+}
+.aboutUs,
+.news {
+  align-self: stretch;
+  width: auto;
+}
+.aboutUs:hover,
+.news:hover {
+  align-self: stretch;
+  width: auto;
+}
+.news {
+  text-decoration: none;
+  color: inherit;
+}
+.aboutUs:hover,
+.linkContainer,
+.news:hover {
+  display: flex;
+  font-size: var(--components-input-text-size);
+}
+.linkContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  height: auto;
+}
+.linkContainer,
+.linkContainer:hover {
+  align-self: stretch;
+  width: auto;
+  gap: var(--gap-3xs);
+  padding: 0 0 12.599999999999907px;
+}
+.containers {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.containers,
+.containers:hover,
+.linkContainer:hover {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.containers,
+.containers:hover {
+  width: 200px;
+  gap: var(--gap-sm);
+  padding: 0 var(--padding-xl) 0 0;
+  min-width: 200;
+}
+.support,
+.support:hover {
+  font-weight: 500;
+  line-height: 27px;
+  display: flex;
+  width: 131.6px;
+}
+.support {
+  position: relative;
+}
+.support:hover {
+  font-family: var(--components-button-large);
+  font-size: var(--font-size-xl);
+  text-align: left;
+  color: var(--primary-contrast);
+}
+.linkContainer1 {
+  font-size: var(--components-input-text-size);
+}
+.linkContainer1,
+.linkContainer1:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.more,
+.more:hover {
+  font-weight: 500;
+  line-height: 27px;
+  display: flex;
+  width: 76.7px;
+}
+.more {
+  position: relative;
+}
+.more:hover {
+  font-family: var(--components-button-large);
+  font-size: var(--font-size-xl);
+  text-align: left;
+  color: var(--primary-contrast);
+}
+.containers2,
+.containers2:hover {
+  display: flex;
+  width: 200px;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-sm);
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 200;
+}
+.fickleflightBioParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  height: auto;
+}
+.fickleflightBioParent,
+.fickleflightBioParent:hover {
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 42.666666666666664px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  max-width: 1320;
+}
+.footer {
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--primary-contrast);
+  font-family: var(--components-button-large);
+}
+.fickleflightBioParent:hover,
+.footer,
+.footer:hover {
+  display: flex;
+  height: auto;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.footer,
+.footer:hover {
+  background: linear-gradient(91.74deg, #0b5ba8 25.38%, #299bd8);
+  align-self: stretch;
+  width: auto;
+  gap: var(--gap-25xl);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xl) var(--padding-41xl);
+  max-width: 100%;
+}

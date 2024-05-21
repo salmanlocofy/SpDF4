@@ -1,0 +1,609 @@
+.recentSearches,
+.recentSearches:hover {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-self: stretch;
+  width: auto;
+}
+.recentSearches {
+  position: relative;
+  text-transform: uppercase;
+}
+.recentSearches:hover {
+  font-family: var(--components-button-large);
+  font-size: var(--font-size-lg);
+  text-align: left;
+  color: var(--color-darkslategray-300);
+}
+.departurecitycode,
+.departurecitycode:hover {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  display: flex;
+  min-width: 42;
+}
+.departurecitycode {
+  position: relative;
+  text-transform: capitalize;
+}
+.departurecitycode:hover {
+  font-family: var(--components-button-large);
+  font-size: var(--font-size-5xl);
+  text-align: left;
+  color: var(--color-cornflowerblue-200);
+}
+.departurecity,
+.departurecity:hover {
+  font-weight: 700;
+  font-size: var(--components-input-text-size);
+  letter-spacing: 0.04em;
+  display: flex;
+  min-width: 79;
+}
+.departurecity {
+  position: relative;
+  text-transform: capitalize;
+}
+.departurecity:hover {
+  font-family: var(--components-button-large);
+  text-align: left;
+  color: var(--color-cornflowerblue-200);
+}
+.details,
+.details:hover {
+  display: flex;
+  flex: 1;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 100;
+}
+.point,
+.point:hover {
+  background-color: var(--primary-contrast);
+  display: flex;
+  width: 10px;
+  height: 10px;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: var(--br-3xs);
+  border: 2px solid var(--color-cornflowerblue-200);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  debug_commit: 6947a6;
+}
+.pointWrapper,
+.pointWrapper:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-end;
+  transform: rotate(0deg);
+  padding: 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+}
+.frameChild {
+  position: relative;
+}
+.frameChild,
+.frameChild:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: 2px;
+  border: 1px dashed var(--color-lightgray-200);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  debug_commit: 6947a6;
+}
+.flightIconsInner,
+.flightIconsInner:hover {
+  display: flex;
+  flex: 1;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-end;
+  transform: rotate(0deg);
+  padding: 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+.ionairplaneIcon {
+  position: relative;
+  overflow: hidden;
+}
+.ionairplaneIcon,
+.ionairplaneIcon:hover {
+  display: flex;
+  width: 26px;
+  height: 24px;
+  gap: var(--gap-0);
+  flex-shrink: 0;
+  debug_commit: 6947a6;
+}
+.flightIcons {
+  overflow: hidden;
+}
+.flightIcons,
+.flightIcons:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.flightIconsWrapper,
+.flightIconsWrapper:hover {
+  display: flex;
+  flex: 1;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: var(--padding-base-5) 0 0;
+  box-sizing: border-box;
+  min-width: 148;
+}
+.destinationcitycode,
+.destinationcitycode:hover {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  display: flex;
+  width: 51.3px;
+}
+.destinationcitycode {
+  position: relative;
+  text-transform: capitalize;
+  flex-shrink: 0;
+}
+.destinationcitycode:hover {
+  font-family: var(--components-button-large);
+  font-size: var(--font-size-5xl);
+  text-align: right;
+  color: var(--color-cornflowerblue-200);
+}
+.destinationcitycodeWrapper,
+.destinationcitycodeWrapper:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-end;
+  transform: rotate(0deg);
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.destinationcity,
+.destinationcity:hover {
+  font-weight: 700;
+  font-size: var(--components-input-text-size);
+  letter-spacing: 0.04em;
+  text-align: left;
+  display: flex;
+  min-width: 96;
+}
+.destinationcity {
+  position: relative;
+  text-transform: capitalize;
+}
+.destinationcity:hover {
+  font-family: var(--components-button-large);
+  color: var(--color-cornflowerblue-200);
+}
+.details1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  height: auto;
+  gap: var(--gap-0);
+}
+.details1,
+.details1:hover {
+  align-self: stretch;
+  width: auto;
+  padding: 0 0 0 var(--padding-82xl);
+  min-width: 100;
+}
+.detailsWrapper {
+  text-align: right;
+}
+.details1:hover,
+.detailsWrapper,
+.detailsWrapper:hover {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.detailsWrapper,
+.detailsWrapper:hover {
+  flex: 1;
+  transform: rotate(0deg);
+  padding: var(--padding-9xs) 0 0;
+  min-width: 148;
+}
+.toAndFrom,
+.toAndFrom:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: 0.05000000000006821px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.departOn {
+  position: relative;
+  text-transform: capitalize;
+  min-width: 104;
+}
+.date,
+.date:hover,
+.departOn,
+.departOn:hover {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  display: flex;
+}
+.departOn:hover {
+  font-family: var(--components-button-large);
+  font-size: var(--font-size-xl);
+  text-align: left;
+  color: var(--color-black);
+  min-width: 104;
+}
+.date,
+.date:hover {
+  line-height: 23.5px;
+  min-width: 110;
+}
+.date {
+  position: relative;
+  text-transform: capitalize;
+}
+.date:hover {
+  font-family: var(--components-button-large);
+  font-size: var(--font-size-xl);
+  text-align: left;
+  color: var(--color-black);
+}
+.departOnParent,
+.departOnParent:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-6xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.flightmaincontainerInner {
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.flightmaincontainerInner,
+.flightmaincontainerInner:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: center;
+  transform: rotate(0deg);
+}
+.flightmaincontainer,
+.flightmaincontainer:hover {
+  display: flex;
+  flex: 1;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-2xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: var(--br-5xs);
+  padding: var(--padding-lg) var(--padding-lgi);
+  box-sizing: border-box;
+  border: 1px solid var(--color-whitesmoke);
+  min-width: 411;
+  max-width: 100%;
+}
+.departurecitycode1,
+.departurecitycode1:hover {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  display: flex;
+  min-width: 49;
+}
+.departurecitycode1 {
+  position: relative;
+  text-transform: capitalize;
+}
+.departurecitycode1:hover {
+  font-family: var(--components-button-large);
+  font-size: var(--font-size-5xl);
+  text-align: left;
+  color: var(--color-cornflowerblue-200);
+}
+.departurecity1,
+.departurecity1:hover {
+  font-weight: 700;
+  font-size: var(--components-input-text-size);
+  letter-spacing: 0.04em;
+  display: flex;
+  min-width: 58;
+}
+.departurecity1 {
+  position: relative;
+  text-transform: capitalize;
+}
+.departurecity1:hover {
+  font-family: var(--components-button-large);
+  text-align: left;
+  color: var(--color-cornflowerblue-200);
+}
+.flightIcons1 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.destinationcitycode1 {
+  align-self: stretch;
+  position: relative;
+  text-transform: capitalize;
+  min-width: 51.3;
+  width: auto;
+}
+.destinationcity1,
+.destinationcitycode1,
+.destinationcitycode1:hover {
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  display: flex;
+}
+.destinationcitycode1:hover {
+  font-family: var(--components-button-large);
+  font-size: var(--font-size-5xl);
+  text-align: right;
+  color: var(--color-cornflowerblue-200);
+  align-self: stretch;
+  width: auto;
+  min-width: 51.3;
+}
+.destinationcity1 {
+  position: relative;
+  text-transform: capitalize;
+  min-width: 45;
+}
+.destinationcity1:hover,
+.destinationcityWrapper {
+  text-align: left;
+  font-size: var(--components-input-text-size);
+}
+.destinationcity1:hover {
+  font-weight: 700;
+  font-family: var(--components-button-large);
+  letter-spacing: 0.04em;
+  color: var(--color-cornflowerblue-200);
+  display: flex;
+  min-width: 45;
+}
+.destinationcityWrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+  align-self: unset;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+.destinationcityWrapper,
+.destinationcityWrapper:hover,
+.details3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+.destinationcityWrapper:hover {
+  align-self: unset;
+  flex-direction: row;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+  padding: 0 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+}
+.details3 {
+  align-self: stretch;
+  overflow: hidden;
+}
+.details3,
+.details3:hover {
+  flex-direction: column;
+  gap: var(--gap-0);
+  padding: 0 0 0 var(--padding-127xl);
+  box-sizing: border-box;
+  min-width: 100;
+}
+.flightmaincontainerParent {
+  font-size: var(--font-size-5xl);
+  color: var(--color-cornflowerblue-200);
+}
+.details3:hover,
+.flightmaincontainerParent,
+.flightmaincontainerParent:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.flightmaincontainerParent,
+.flightmaincontainerParent:hover {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-base);
+  transform: rotate(0deg);
+  max-width: 100%;
+}
+.recentSearchesParent,
+.recentSearchesParent:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  max-width: 100%;
+}
+.prepareForYour,
+.prepareForYour:hover {
+  letter-spacing: 0.04em;
+  display: flex;
+  align-self: stretch;
+  width: auto;
+}
+.prepareForYour {
+  position: relative;
+  text-transform: uppercase;
+}
+.prepareForYour:hover {
+  font-family: var(--components-button-large);
+  font-size: var(--font-size-lg);
+  text-align: left;
+  color: var(--color-lightgray-100);
+}
+.icon {
+  position: relative;
+  object-fit: cover;
+}
+.icon,
+.icon:hover {
+  display: flex;
+  width: 65px;
+  height: 65px;
+}
+.text,
+.text:hover {
+  letter-spacing: 0.04em;
+  display: flex;
+  align-self: stretch;
+  width: auto;
+}
+.text {
+  position: relative;
+}
+.text:hover {
+  font-family: var(--components-button-large);
+  font-size: var(--components-button-large-size);
+  text-align: center;
+  color: var(--color-gray-100);
+}
+.tripitem,
+.tripitem:hover {
+  display: flex;
+  width: 90px;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  align-items: center;
+  justify-content: center;
+}
+.text1,
+.text1:hover {
+  letter-spacing: 0.04em;
+  min-width: 90;
+}
+.text1 {
+  align-self: stretch;
+  position: relative;
+  display: flex;
+  width: auto;
+}
+.text1:hover {
+  font-family: var(--components-button-large);
+}
+.text1:hover,
+.tripMenus {
+  text-align: center;
+  font-size: var(--components-button-large-size);
+  color: var(--color-gray-100);
+}
+.text1:hover,
+.tripMenus,
+.tripMenus:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+}
+.tripMenus,
+.tripMenus:hover {
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.prepareMenu {
+  color: var(--color-lightgray-100);
+}
+.prepareMenu,
+.prepareMenu:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-xl);
+  align-items: flex-start;
+  justify-content: center;
+}
+.frameParent {
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-300);
+  font-family: var(--components-button-large);
+}
+.frameParent,
+.frameParent:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-17xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  max-width: 100%;
+}
